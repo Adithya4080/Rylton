@@ -27,8 +27,8 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Text Content */}
             <div className="space-y-8 animate-fade-in">
-              <div className="inline-block">
-                <span className="bg-primary-500/10 border border-primary-500/30 text-primary-500 px-4 py-2 rounded-full text-sm font-semibold">
+              <div className="flex">
+                <span className="bg-primary-500/10 border border-primary-500/30 text-primary-500 px-4 py-2 rounded-full text-sm font-semibold whitespace-nowrap max-[360px]:whitespace-normal max-[360px]:text-xs max-[360px]:leading-snug">
                   ⚡ Zero Emissions • Maximum Performance
                 </span>
               </div>
@@ -59,18 +59,18 @@ export default function Home() {
               </div>
 
               {/* Stats */}
-              <div className="grid grid-cols-3 gap-6 pt-8">
+              <div className="grid grid-cols-3 gap-3 pt-8">
                 <div>
-                  <div className="text-3xl font-bold text-primary-500">125km</div>
-                  <div className="text-sm text-gray-400">Max Range</div>
+                  <div className="text-2xl sm:text-3xl font-bold text-primary-500 whitespace-nowrap">125km</div>
+                  <div className="text-xs sm:text-sm text-gray-400">Max Range</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-primary-500">25km/h</div>
-                  <div className="text-sm text-gray-400">Top Speed</div>
+                  <div className="text-2xl sm:text-3xl font-bold text-primary-500 whitespace-nowrap">25km/h</div>
+                  <div className="text-xs sm:text-sm text-gray-400">Top Speed</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-primary-500">3 - 4 hrs</div>
-                  <div className="text-sm text-gray-400">Fast Charge</div>
+                  <div className="text-2xl sm:text-3xl font-bold text-primary-500 whitespace-nowrap">3 - 4 hrs</div>
+                  <div className="text-xs sm:text-sm text-gray-400">Fast Charge</div>
                 </div>
               </div>
             </div>
