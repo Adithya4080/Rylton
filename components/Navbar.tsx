@@ -180,8 +180,8 @@ export default function Navbar() {
     { href: '/', label: 'Home' },
     { href: '/models', label: 'Models' },
     { href: '/about', label: 'About' },
-    { href: '/contact', label: 'Contact' },
     { href: '/dealership', label: 'Dealership' },
+    { href: '/contact', label: 'Contact' },
   ];
 
   return (

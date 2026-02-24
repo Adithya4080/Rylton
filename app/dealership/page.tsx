@@ -25,7 +25,7 @@ const financials = [
   { label: 'Project Cost',     value: '₹10 Lakhs', icon: '🏗️',  accent: '#f59e0b' },
   { label: 'Own Contribution', value: '₹2 Lakhs',  icon: '💼',  accent: '#34d399' },
   { label: 'Bank Loan',        value: '₹8 Lakhs',  icon: '🏦',  accent: '#60a5fa' },
-  { label: 'Subsidy',          value: '₹2 Lakhs',  icon: '🎯',  accent: '#a78bfa' },
+  { label: 'Subsidy',          value: '₹4 Lakhs',  icon: '🎯',  accent: '#a78bfa' },
 ];
 
 // ── Custom Dropdown ───────────────────────────────────────────────────────────
