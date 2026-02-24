@@ -181,6 +181,7 @@ export default function Navbar() {
     { href: '/models', label: 'Models' },
     { href: '/about', label: 'About' },
     { href: '/contact', label: 'Contact' },
+    { href: '/dealership', label: 'Dealership' },
   ];
 
   return (

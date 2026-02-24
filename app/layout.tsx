@@ -5,13 +5,30 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Rylton - The Future of Urban Mobility",
-  description: "Experience the revolution in urban transportation with Rylton electric scooters. Zero emissions, maximum performance, and sustainable mobility for modern cities.",
-  keywords: "electric scooter, EV, eco-friendly, sustainable, urban mobility, zero emissions",
-  authors: [{ name: "Rylton Mobility" }],
+  description:
+    "Experience the revolution in urban transportation with Rylton electric scooters. Zero emissions, maximum performance, and sustainable mobility for modern cities.",
+
   openGraph: {
     title: "Rylton - Electric Scooters",
     description: "The future of urban mobility is here",
+    url: "https://rylton.in", 
+    siteName: "Rylton",
+    images: [
+      {
+        url: "https://rylton.in/images/logo2.png", 
+        width: 70,
+        height: 70,
+        alt: "Rylton Electric Scooter",
+      },
+    ],
     type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Rylton - Electric Scooters",
+    description: "The future of urban mobility is here",
+    images: ["https://rylton.in/images/logo2.png"],
   },
 };
 

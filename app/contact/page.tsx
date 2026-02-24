@@ -54,6 +54,30 @@ export default function ContactPage() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target;
+
+    let formattedValue = value;
+
+    if (name === "phone") {
+      // Allow digits and +
+      formattedValue = value.replace(/[^\d+]/g, "");
+
+      // Allow only one + and only at the beginning
+      if (formattedValue.includes("+")) {
+        formattedValue =
+          "+" + formattedValue.replace(/\+/g, "").replace(/^\+/, "");
+      }
+    }
+
+    setFormData((prev) => ({
+      ...prev,
+      [name]: formattedValue,
+    }));
+  };
+
+
+
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
@@ -185,7 +209,8 @@ export default function ContactPage() {
                   <label htmlFor="phone" className="block text-sm font-medium mb-2">Phone Number *</label>
                   <input
                     type="tel" id="phone" name="phone" required
-                    value={formData.phone} onChange={handleChange}
+                    value={formData.phone} onChange={handlePhoneChange}
+                    maxLength={15}
                     className="w-full px-4 py-3 bg-dark-800 border border-dark-700 rounded-lg focus:outline-none focus:border-primary-500 text-white transition-colors"
                     placeholder="+91 98765 43210"
                   />
