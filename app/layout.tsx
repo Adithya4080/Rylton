@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Rylton - Electric Scooters",
     description: "The future of urban mobility is here",
-    url: "https://rylton.in", 
+    url: "https://www.rylton.in", 
     siteName: "Rylton",
     images: [
       {

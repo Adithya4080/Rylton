@@ -168,7 +168,6 @@ export default function DealershipPage() {
 
                     District / State : ${formData.city}, ${formData.state}
                     Area / Locality  : ${formData.area}
-                    Dealer Type      : ${formData.dealerType}
                     Monthly Sales    : ${formData.salesVolume}
                     Current Business : ${formData.currentBusiness || 'N/A'}
 
@@ -332,7 +331,7 @@ export default function DealershipPage() {
             </div>
 
             {/* Dealer Type — custom dropdown */}
-            <div>
+            {/* <div>
               <label className="block text-sm font-medium text-gray-300 mb-2">Dealer Type <span className="text-amber-400">*</span></label>
               <CustomSelect
                 name="dealerType"
@@ -342,7 +341,7 @@ export default function DealershipPage() {
                 placeholder="Select Dealer Type"
                 required
               />
-            </div>
+            </div> */}
 
             {/* Sales Volume */}
             <div>
