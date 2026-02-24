@@ -1,7 +1,7 @@
 "use client"
 export default function PressPage() {
   return (
-    <main className="min-h-screen bg-[#060910] text-white flex flex-col items-center justify-center px-4 sm:px-6 py-16 sm:py-24 relative overflow-hidden">
+    <main className="min-h-screen bg-[#060910] text-white flex flex-col items-center px-4 pt-28 sm:pt-32 pb-16 sm:pb-24 sm:py-24 relative overflow-hidden">
 
       {/* Grid background */}
       <div
