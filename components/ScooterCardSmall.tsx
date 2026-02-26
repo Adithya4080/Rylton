@@ -123,7 +123,7 @@ export function ScooterCarousel({
   const offset = index * (cardWidth + GAP);
 
   return (
-    <section className="py-12 px-4">
+    <section className="py-12 px-4 max-[480px]:pt-0">
       {/* Header */}
       <div className="flex items-center justify-between mb-8 max-w-5xl mx-auto">
         {/* <h2 className="text-2xl font-bold text-white">{title}</h2>  */}
